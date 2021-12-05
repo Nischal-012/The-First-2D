@@ -11,9 +11,9 @@ public class CameraMovement : MonoBehaviour
     {
         Vector3 delta=Vector3.zero;
         float deltaX = look_at.position.x -transform.position.x;
-        if(deltaX>boundX ||deltaX< -boundX)
+        if(deltaX > boundX ||deltaX < -boundX)
         {
-            if (transform.position.x<look_at.position.x)
+            if (transform.position.x < look_at.position.x)
             {
                 delta.x= deltaX-boundX;
 
@@ -23,7 +23,7 @@ public class CameraMovement : MonoBehaviour
                 delta.x= deltaX+boundX;
             }
         }
-        float deltaY = look_at.position.x -transform.position.x;
+        float deltaY = look_at.position.y -transform.position.y;
         if(deltaY>boundY ||deltaY< -boundY)
         {
             if (transform.position.y < look_at.position.y)
