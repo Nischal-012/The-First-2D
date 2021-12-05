@@ -8,14 +8,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Human
+  - Floor
   - Water
   - UI
+  - Block
+  - Human
   - 
   - 
   - 
-  - 
-  - Floor
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Human
+    uniqueID: 674053895
+    locked: 0
+  - name: Block
+    uniqueID: 2736593957
     locked: 0
